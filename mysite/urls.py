@@ -18,4 +18,5 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('http://127.0.0.1:7030/', include('blog.urls')),
 ]
